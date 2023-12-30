@@ -13,6 +13,16 @@
     color: black;
     padding-left: 25px;
   }
+
+  body {
+    font-size: 20px;
+
+  }
+
+.bodyMerch {
+  position: relative;
+  height: 100vh;
+}
   
   header {
     position: absolute;
@@ -463,15 +473,13 @@
   }
 
   footer{
-    height: auto;
-    bottom: 0
-    ;
+    position: absolute;
+    bottom: 0;
   }
 
   #footerNav {
     justify-content: center;
     padding-right: 75px;
-    
   }
   
   
@@ -492,9 +500,7 @@
     }
 
       
-body {
-    font-size: 20px;
-  }
+
   
   
   @media screen and (max-width: 700px) {
